@@ -6,6 +6,10 @@ My notes about Regular Expressions.
 ## Base
 `?` - matches the previous token zero or one time.
 
+`*` - zero or more matches.
+
+`+` - one or more matches.
+
 `[]` - matches a single character that is contained within the brackets. The `-` character is treated as a literal character if it is the last or the first character within the brackets.
 
 `()` - a marked subexpression (group).
