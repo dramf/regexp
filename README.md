@@ -4,6 +4,8 @@ My notes about Regular Expressions.
 **A regular expression** is a sequence of characters that specifies a search pattern.
 
 ## Base
+`?` - matches the previous token zero or one time.
+
 `()` - a marked subexpression (group).
 
 `|` - or (alternative).
