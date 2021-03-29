@@ -6,6 +6,8 @@ My notes about Regular Expressions.
 ## Base
 `^` - matches the starting position within the string.
 
+`$` - matches the ending position of the string or the position just before a string-ending newline.
+
 `?` - matches the previous token zero or one time.
 
 `*` - zero or more matches.
