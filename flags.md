@@ -1,2 +1,4 @@
 # Flags
-`/g` - global, don't return after first match
+`/g` - global, don't return after first match.
+
+`/i` - insensitive, case insensitive match.
