@@ -6,6 +6,9 @@ My notes about Regular Expressions.
 ## Base
 `()` - a marked subexpression (group).
 
+`|` - or (alternative).
+`(H|h)` - 1st alternative is `H', 2st is `h`. 
+
 ## Flags
 `/g` - global, don't return after first match.
 
