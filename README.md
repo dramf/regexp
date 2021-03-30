@@ -39,5 +39,11 @@ My notes about Regular Expressions.
 
 `/i` - insensitive, case insensitive match.
 
+## Samples
+### Matching Passwords
+```
+(?=.*[a-z])(?=.*[0-9])(?=.*[A-Z])(?=.*[!?])[a-zA-Z0-9!?]{8,}
+```
+
 ## Testing
 I use [codepen](https://codepen.io/pen/?editors=0010) and [regex101.com](https://regex101.com/) for RegExp tests.
