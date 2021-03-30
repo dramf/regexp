@@ -21,6 +21,8 @@ My notes about Regular Expressions.
 `\1` matches the same text as most recently matched by the 1st capturing group.
 *note*: these capturing groups capture the thing that was matched. not the pattern, reffering to the exact match and not to the pattern.
 
+`(?:  )` - Non-capturing group.
+
 `[]` - matches a single character that is contained within the brackets. The `-` character is treated as a literal character if it is the last or the first character within the brackets.
 
 `()` - a marked subexpression (group).
@@ -32,8 +34,6 @@ My notes about Regular Expressions.
 `/g` - global, don't return after first match.
 
 `/i` - insensitive, case insensitive match.
-
-
 
 ## Testing
 I use [codepen](https://codepen.io/pen/?editors=0010) and [regex101.com](https://regex101.com/) for RegExp tests.
