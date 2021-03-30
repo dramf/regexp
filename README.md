@@ -33,17 +33,18 @@ My notes about Regular Expressions.
 
 `|` - or (alternative).
 `(H|h)` - 1st alternative is `H`, 2st is `h`. 
-
 ## Flags
 `/g` - global, don't return after first match.
 
 `/i` - insensitive, case insensitive match.
-
 ## Samples
+### Matching Emails (simple)
+```
+[a-zA-z0-9]+([a-zA-Z0-9-]+)*@([a-zA-Z0-9-]+([a-zA-Z0-9-]*)\.)+[a-zA-Z]+$
+```
 ### Matching Passwords
 ```
 (?=.*[a-z])(?=.*[0-9])(?=.*[A-Z])(?=.*[!?])[a-zA-Z0-9!?]{8,}
 ```
-
 ## Testing
 I use [codepen](https://codepen.io/pen/?editors=0010) and [regex101.com](https://regex101.com/) for RegExp tests.
