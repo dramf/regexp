@@ -19,6 +19,7 @@ My notes about Regular Expressions.
 `\.` matches the character `.`.
 
 `\1` matches the same text as most recently matched by the 1st capturing group.
+*note*: these capturing groups capture the thing that was matched. not the pattern, reffering to the exact match and not to the pattern.
 
 `[]` - matches a single character that is contained within the brackets. The `-` character is treated as a literal character if it is the last or the first character within the brackets.
 
