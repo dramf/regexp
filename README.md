@@ -14,6 +14,10 @@ My notes about Regular Expressions.
 
 `+` - one or more matches.
 
+`.` - matches any character.
+
+`\.` matches the character `.`.
+
 `[]` - matches a single character that is contained within the brackets. The `-` character is treated as a literal character if it is the last or the first character within the brackets.
 
 `()` - a marked subexpression (group).
