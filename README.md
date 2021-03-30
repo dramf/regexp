@@ -18,6 +18,10 @@ My notes about Regular Expressions.
 
 `\.` matches the character `.`.
 
+`{1}` matches the previous token exactly one time.
+
+`{2,}` matches the previous token 2 times or more.
+
 `\1` matches the same text as most recently matched by the 1st capturing group.
 *note*: these capturing groups capture the thing that was matched. not the pattern, reffering to the exact match and not to the pattern.
 
