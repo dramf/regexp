@@ -18,6 +18,8 @@ My notes about Regular Expressions.
 
 `\.` matches the character `.`.
 
+`\1` matches the same text as most recently matched by the 1st capturing group.
+
 `[]` - matches a single character that is contained within the brackets. The `-` character is treated as a literal character if it is the last or the first character within the brackets.
 
 `()` - a marked subexpression (group).
